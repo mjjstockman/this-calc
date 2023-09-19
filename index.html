@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      defer
+      src="https://unpkg.com/alpinejs@3.2.3/dist/cdn.min.js"
+    ></script>
+    <script defer src="main.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>Calculator</title>
+  </head>
+  <body>
+    <main>
+      <div class="calc max-w-md mx-auto p-6">
+        <div id="calc__display" class="grid-col-span-4 p-4">0</div>
+        <div class="calc__keys mt-6">
+          <button id="allClear" class="grid-col-span-2 all-clear">AC</button>
+          <button id="delete" class="delete">Del</button>
+          <button id="divide" class="operator">%</button>
+          <button id="seven" class="number">7</button>
+          <button id="eight" class="number">8</button>
+          <button id="nine" class="number">9</button>
+          <button id="multiply" class="operator">X</button>
+          <button id="four" class="number">4</button>
+          <button id="five" class="number">5</button>
+          <button id="six" class="number">6</button>
+          <button id="minus" class="operator">-</button>
+          <button id="one" class="number">1</button>
+          <button id="two" class="number">2</button>
+          <button id="three" class="number">3</button>
+          <button id="plus" class="operator">+</button>
+          <button id="zero" class="number grid-col-span-2">0</button>
+          <button id="point">.</button>
+          <button id="equals" class="equals">=</button>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>

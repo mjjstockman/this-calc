@@ -1,0 +1,60 @@
+:root{
+    /* Colours */
+    --clr-primary-400: #606368;
+    /* --gw-primary-lighter-color: #F0E582;
+    --gw-dark: #090C08; */
+  
+    /* CTA Button */
+    /* --gw-cta-btn-main: #FFB8E4;
+    --gw-cta-btn-dark: #CF8BB6;
+    --gw--cta-btn-darker: #A1618A; */
+    
+    /* Primary Btn */
+    /* --gw-btn-main: #9DD9D2;
+    --gw-btn-dark: #71ABA5;
+    --gw-btn-darker: #46807A;
+    --gw-btn-darkest: #1A5751; */
+  
+    /* Links */
+    /* --gw-link: #25598E;
+    --gw-link-hover: #1D426D;
+    --gw-link-visited: #153251; */
+  
+  
+    /* Text sizing */
+    /* --gw-font-size: clamp(1rem, 0.3077rem + 3.0769vw, 3rem);
+    --gw-font-size-2: clamp(1.625rem, 0.5rem + 5vw, 4.875rem);
+    --gw-font-size-1: clamp(2.625rem, 0.8077rem + 8.0769vw, 7.875rem);
+    --gw-font-size-: clamp(4.25rem, 1.3077rem + 13.0769vw, 12.75rem); */
+  }
+
+body {
+    background: var(--clr-primary-400);
+}
+
+
+.calc {
+    background: red;
+    border: black solid 3px;
+}
+
+.calc__keys {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(4, 1fr);
+    
+}
+
+.calc__keys > button {
+    background: pink;
+    border: green solid 3px;
+}
+
+.grid-col-span-2 {
+    grid-column: span 2;
+}
+
+.grid-col-span-4 {
+    grid-column: span 4;
+    background-color: aqua;
+}
